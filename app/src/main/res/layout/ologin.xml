@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.sreekanthkasani.login.login.OLoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_margin="30dp"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:background="@android:drawable/screen_background_dark_transparent"
+                />
+
+            <ImageView
+                android:id="@+id/logologin"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/logo"/>
+
+            <View
+                android:layout_below="@+id/logologin"
+                android:layout_marginTop="30dp"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/user_login"/>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_marginTop="305dp"
+                    android:id="@+id/lusername"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:hint="username"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/hintColor"
+                    android:background="@android:color/transparent"                    android:textSize="25dp"
+                    android:textColor="@color/whilte"
+                    android:layout_marginLeft="90dp"/>
+
+                <EditText
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/lpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="**********"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/hintColor"
+                    android:background="@android:color/transparent"
+                    android:textSize="25dp"
+                    android:textColor="@color/whilte"
+                    android:layout_marginLeft="90dp"/>
+
+                <Button
+                    android:id="@+id/llogin"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textColor="@color/whilte"
+                    android:background="@drawable/rcard"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_gravity="center"
+                    android:shadowColor="@color/shadow"
+                    />
+
+                <TextView
+                    android:id="@+id/go_signup"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Register here"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_alignParentBottom="true"/>
+
+            </LinearLayout>
+
+            <include layout="@layout/progressbar"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

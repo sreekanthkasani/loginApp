@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/DisplayPic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/login" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sreekanth"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/hintColor"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="YESTERDAY"
+        android:textSize="10dp"
+        android:layout_marginLeft="280dp"
+        android:textColor="@color/hintColor"
+        android:layout_marginTop="20dp"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="60dp"
+        android:background="@color/hintColor"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

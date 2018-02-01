@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#17516b</color>
+    <color name="colorPrimaryDark">#17516b</color>
+    <color name="colorAccent">#00aef0</color>
+    <color name="whilte">#ffffff</color>
+    <color name="iActive">#00aef0</color>
+    <color name="inActive">#17516b</color>
+    <color name="oinActive">#FF4081</color>
+    <color name="hintColor">#959ca0</color>
+    <color name="shadow">#7F000000</color>
+
+    <color name="iActive1">#00aef0</color>
+    <color name="iActive2">#00aef0</color>
+    <color name="iActive3">#00aef0</color>
+    <color name="iActive4">#00aef0</color>
+    <color name="iActive5">#00aef0</color>
+
+
+    <color name="inActive1">#17516b</color>
+    <color name="inActive2">#17516b</color>
+    <color name="inActive3">#17516b</color>
+    <color name="inActive4">#17516b</color>
+    <color name="inActive5">#17516b</color>
+
+
+    <array name="iActiveFinal">
+        <item>@color/iActive1</item>
+        <item>@color/iActive2</item>
+        <item>@color/iActive3</item>
+        <item>@color/iActive4</item>
+        <item>@color/iActive5</item>
+    </array>
+
+    <array name="inActiveFinal">
+        <item>@color/inActive1</item>
+        <item>@color/inActive2</item>
+        <item>@color/inActive3</item>
+        <item>@color/inActive4</item>
+        <item>@color/inActive5</item>
+    </array>
+
+
+</resources>
